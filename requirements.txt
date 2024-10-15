@@ -35,7 +35,7 @@ optree
 packaging
 pandas
 pillow
-protobuf
+protobuf==3.20.3  # This ensures compatibility with Streamlit
 pyarrow
 pydeck
 Pygments
