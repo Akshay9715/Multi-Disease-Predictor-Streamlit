@@ -25,7 +25,7 @@ if rad == 'Home':
     """)
 
     # Display an overall image for the project
-    st.image(f"{working_dir}/images\Home.webp", caption="Multi-Disease Predictor Overview", use_column_width=True)
+    st.image(f"{working_dir}/images/Home.webp", caption="Multi-Disease Predictor Overview", use_column_width=True)
 
     # Motivation
     st.header("Motivation")
@@ -110,7 +110,7 @@ if rad == 'Heart Disease Predictor':
     """)
 
     # Display an image related to heart disease
-    img.image(f"{working_dir}/images\Heart.webp", caption="Heart Disease", width=300)
+    img.image(f"{working_dir}/images/Heart.webp", caption="Heart Disease", width=300)
 
     # Input fields for user health data
     data= Heart_inputs()
